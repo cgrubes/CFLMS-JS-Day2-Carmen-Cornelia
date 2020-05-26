@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Today's weather</h1>
+
+        <div id="x">
+
+        </div>
+
+
+        <script>
+            Math.random();
+            random = Math.round(Math.random() * 50) - 5;
+            console.log(random);
+
+            if (random <= 10) {
+                document.write('<div class = "text"><b>The temperature is cold</b></div>')
+                var img = document.createElement("img");
+                img.src = "cold.jpg";
+                var src = document.getElementById("x");
+                src.appendChild(img)
+
+            } else if (random >= 11 && random < 32) {
+                document.write('<div class = "text"><b>The temperature is moderate</b></div>')
+                var img = document.createElement("img");
+                img.src = "moderate.jpg";
+                var src = document.getElementById("x");
+                src.appendChild(img)
+
+
+            } else {
+                document.write('<div class = "text"><b>The weather is hot</b></div>');
+                var img = document.createElement("img");
+                img.src = "hot.jpg";
+                var src = document.getElementById("x");
+                src.appendChild(img)
+
+
+            }
+        </script>
+
+    </div>
+</body>
+
+</html>

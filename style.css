@@ -1,0 +1,36 @@
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+body {
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.container {
+    background-color: palegoldenrod;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+#x {
+    display: flex;
+    justify-content: center;
+}
+
+#x img {
+    height: 20em;
+    margin-bottom: 2em;
+}
+
+.text {
+    text-align: center;
+    color: rgb(65, 121, 65);
+    font-size: 18pt;
+}
