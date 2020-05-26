@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5722337b-ff91-4cc7-a3a0-18d811c5e872" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intermediate1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic3.html" beforeDir="false" afterPath="$PROJECT_DIR$/basic3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic3_cornelia.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/basic3.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +15,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -108,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590480305050</updated>
-      <workItem from="1590480311944" duration="6793000" />
+      <workItem from="1590480311944" duration="10522000" />
     </task>
     <servers />
   </component>

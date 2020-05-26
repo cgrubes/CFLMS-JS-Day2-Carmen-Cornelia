@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Intermediate</title>
+
+</head>
+<body>
+<script>
+
+    var students = [['Martin', 'Thomas', 'Klaus', 'Maria', 'David'], [76, 85, 65, 93, 81]];
+    var indexValue = 0;
+
+    students[1].forEach(function (g) {
+        console.log(g);
+
+        switch (true) {
+
+            case (g < 60):
+                title = students[0][indexValue] + ' has grade F';
+                console.log(title);
+                indexValue += 1;
+                break;
+            case (g < 70):
+                title = students[0][indexValue] + ' has grade D';
+                console.log(title);
+                indexValue += 1;
+                break;
+            case (g < 80):
+                title = students[0][indexValue] + ' has grade C';
+                console.log(title);
+                indexValue += 1;
+                break;
+            case (g < 90):
+                title = students[0][indexValue] + ' has grade B';
+                console.log(title);
+                indexValue += 1;
+                break;
+            case (g <= 100):
+                title = students[0][indexValue] + ' has grade A';
+                console.log(title);
+                indexValue += 1;
+                break;
+            default:
+                title = "Grade not checked";
+                console.log(title);
+                break;
+        }
+    });
+
+    var total = 0;
+    for (var i = 0; i < students[1].length; i++) {
+        total += students[1][i];
+    }
+    var avg = total / students[1].length;
+    document.write('The average score is ' + avg)
+
+
+</script>
+</body>
+</html>
