@@ -9,14 +9,16 @@
 <script>
     document.write('start');
   var myArray = [1, 7, -3, 9];
-  for (var highestNumber  = 0 ; i in myArray;){
+  var highestNumber  = Number.MIN_VALUE;
+  myArray.forEach(function (i) {
       if (i > highestNumber){
           highestNumber = i;
-
       }
-      document.write(highestNumber)
-  }
+
+  });
+
   document.write( highestNumber +'is the highest Number')
+
 </script>
 
 </body>
