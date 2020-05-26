@@ -5,54 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic3</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="basic3.css">
 </head>
 
 <body>
-    <div class="container">
-        <h1>Today's weather</h1>
+<div class="container">
+    <h1>Today's weather</h1>
 
-        <div id="x">
-
-        </div>
-
-
-        <script>
-            Math.random();
-            random = Math.round(Math.random() * 50) - 6;
-            console.log(random);
-            var img ;
-            var src;
-            if (random <= 10) {
-                document.write('<div class = "text"><b>The temperature is cold</b></div>');
-                document.write(`<div class="text"><b>${random}°C</b>`);
-                 img = document.createElement("img");
-                img.src = "cold.jpg";
-                src = document.getElementById("x");
-                src.appendChild(img)
-
-            } else if (random >= 11 && random < 32) {
-                document.write('<div class = "text"><b>The temperature is moderate</b></div>');
-                document.write(`<div class="text"><b>${random}°C</b>`);
-                img = document.createElement("img");
-                img.src = "moderate.jpg";
-                src = document.getElementById("x");
-                src.appendChild(img)
-
-
-            } else {
-                document.write('<div class = "text"><b>The temperature is hot</b></div>');
-                document.write(`<div class="text"><b>${random}°C</b>`);
-                img = document.createElement("img");
-                img.src = "hot.jpg";
-                src = document.getElementById("x");
-                src.appendChild(img)
-
-
-            }
-        </script>
+    <div id="x">
 
     </div>
+
+
+</div>
+
+<script src="basic3.js"></script>
 </body>
 
 </html>

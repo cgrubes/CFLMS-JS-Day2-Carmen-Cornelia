@@ -1,3 +1,20 @@
+@media screen and (max-width: 480px) {
+    #x img{
+        height: 10em;
+        max-width: 80%;
+
+    }
+    .container{
+        background-color: palegoldenrod;
+    }
+}
+
+@media screen and (min-width: 481px){
+    .container{
+        background-color: palegoldenrod;
+    }
+}
+
 h1 {
     color: orange;
     text-align: center;
@@ -12,7 +29,6 @@ html {
 }
 
 .container {
-    background-color: palegoldenrod;
     display: flex;
     justify-content: center;
     flex-direction: column;
